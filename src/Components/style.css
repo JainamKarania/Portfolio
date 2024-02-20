@@ -9,6 +9,7 @@
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 100%;
 }
 .section{
     padding-top: 100px;
@@ -16,6 +17,9 @@
 }
 .pt-0{
     padding-top: 50px;
+}
+.border-bottom{
+    border-bottom: 2px solid rgb(84, 84, 84);
 }
 .Logo {
     display: flex;
@@ -83,4 +87,78 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    box-shadow: 5px 5px 5px lightblue;
+}
+.about-wrapper{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.heading-h2{
+    font-size: 2rem;
+    line-height: 1.3;
+}
+.size-big{
+    font-size: 4rem;
+}
+.paragraph{
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.DP{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 1000px;
+    max-width: 100%;
+}
+.icons{
+    background: transparent;
+    height: 64px;
+    width: 64px;
+}
+.color-aqua{
+    color: aqua;
+}
+.color-lightblue{
+    color: lightblue;
+}
+.color-yellow{
+    color: yellow;
+}
+.color-green{
+    color: green;
+}
+.color-seablue{
+    color: rgb(5, 163, 255);
+}
+.color-orange{
+    color: orange;
+}
+.skills-heading{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    width: 100%;
+    row-gap: 1rem;
+    gap: 1rem;
+    column-gap: 1rem;
+}
+.skills-card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    max-width:300px;
+    border-radius: 8px;
+    background-color: rgb(12, 12, 12);
 }
