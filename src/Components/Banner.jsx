@@ -5,7 +5,7 @@ export const Banner = () => {
     <div>
          <section className='section border-bottom'>
             <div class="container">
-                <div className="grid">
+                <div className="flex">
                     <div className="hero-wrapper">
                 <h1>Hello, My Name is <span>Jainam Karania</span></h1> 
                 <div>

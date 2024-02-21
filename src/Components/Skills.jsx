@@ -4,7 +4,7 @@ import { SiTailwindcss , SiTypescript , SiJavascript,SiHtml5,SiCss3,SiFirebase,S
 export const Skills = () => {
   return (
     <div>
-        <section className="section pt-0">
+        <section className="section pt-0 border-bottom">
             <div className="container">
                 <div className="skills-heading">
                     <h2 className="heading-h2 size-big">Skills</h2>

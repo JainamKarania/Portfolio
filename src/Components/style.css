@@ -6,9 +6,9 @@
     padding-left: 16px;
     padding-right: 16px;
 }
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.flex{
+    display: flex;
+    gap: 2rem;
     width: 100%;
 }
 .section{
@@ -89,12 +89,16 @@
     justify-content: flex-end;
     box-shadow: 5px 5px 5px lightblue;
 }
+.about-image-wrapper{
+    width: 100%;
+    display: flex;
+}
 .about-wrapper{
     max-width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: center;
 }
 .heading-h2{
     font-size: 2rem;
@@ -108,8 +112,8 @@
     line-height: 1.5;
 }
 .DP{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     border-radius: 1000px;
     max-width: 100%;
@@ -128,8 +132,11 @@
 .color-yellow{
     color: yellow;
 }
-.color-green{
-    color: green;
+.text-white{
+    color: white;
+}
+.bg-color-green{
+    background-color: rgb(12, 197, 12);
 }
 .color-seablue{
     color: rgb(5, 163, 255);
@@ -161,4 +168,76 @@
     max-width:300px;
     border-radius: 8px;
     background-color: rgb(12, 12, 12);
+}
+.slider{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+.project-card{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    background-color: rgb(15, 15, 15);
+    border-radius: 16px;
+}
+.project-img{
+    width: 100px;
+    height: 100px;
+}
+.project-logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    border-radius: 1000px;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: auto;
+}
+.skills-wrapper{
+    display: flex;
+    gap: 1rem;
+    padding: 0.2rem;
+    flex-wrap: wrap;
+}
+.bg-black{
+    background-color: rgb(21, 21, 21);
+    opacity: 70%;
+}
+.bg-navy{
+    background-color: navy;
+}
+.skills{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.project-img-wrapper{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.text-center{
+    text-align: center;
+}
+.button-wrapper{
+    display: flex;
+    gap: 2rem;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
 }
