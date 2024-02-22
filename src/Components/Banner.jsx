@@ -1,22 +1,34 @@
 import './style.css'
-import Profile from '../assets/Profile.png'
+import '../assets/herobanner.jpg'
+import { TypeAnimation } from 'react-type-animation';
 export const Banner = () => {
   return (
     <div>
-         <section className='section border-bottom'>
-            <div class="container">
-                <div className="flex">
-                    <div className="hero-wrapper">
-                <h1>Hello, My Name is <span>Jainam Karania</span></h1> 
+         <section className='py-40 bg-no-repeat bg-cover border-b border-b-gray-700 bg-overlay'>
+            <div class="container max-w-7xl mx-auto px-4">
+                <div className="flex flex-col items-center justify-center"> 
+                    <div className="flex mx-auto flex-col items-center justify-center gap-4">
+                <h1 className='text-2xl'>Hello & Welcome</h1>
                 <div>
-                 <h3>I'm a <span id="element">Frontend Developer</span></h3></div>
+                 <h3 className='text-2xl'>I'm a <span className='text-7xl color-seablue'>
+                  <TypeAnimation 
+                    sequence={[
+                      'Frontend Developer.',
+                      2000, 
+                      'Webflow Developer.',
+                      2000, 
+                      () => {
+                        console.log('Sequence completed');
+                      },
+                    ]}
+                    wrapper="span"
+                    cursor={true}
+                    repeat={Infinity}
+                    style={{ fontSize: '64px', display: 'inline-block' }} 
+                 /></span></h3></div>
                 </div>
-            
-            <div class="hero-image-wrapper">
-                <img src={Profile} alt="" />
             </div>
-            </div>
-            </div>
+          </div>
         </section>
     </div>
     

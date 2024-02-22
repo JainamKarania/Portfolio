@@ -4,70 +4,70 @@ import { SiTailwindcss , SiTypescript , SiJavascript,SiHtml5,SiCss3,SiFirebase,S
 export const Skills = () => {
   return (
     <div>
-        <section className="section pt-0 border-bottom">
-            <div className="container">
-                <div className="skills-heading">
-                    <h2 className="heading-h2 size-big">Skills</h2>
+        <section className="py-20">
+            <div className="container max-w-7xl mx-auto px-4">
+                <div className="flex items-center justify-center mb-12">
+                    <h2 className="text-5xl">Skills</h2>
                 </div>
-                <div className="skills-grid">
-                    <div className="skills-card">
-                        <FaReact className='icons color-aqua'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">React</h3>
+                <div className="grid grid-cols-5 grid-rows-1 gap-8">
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <FaReact className='bg-transparent w-16 h-16 color-aqua'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">React</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiJavascript className='icons color-yellow'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">Javascript</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiJavascript className='bg-transparent w-16 h-16 color-yellow'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">Javascript</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiTailwindcss className='icons color-seablue'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">Tailwind CSS</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiTailwindcss className='bg-transparent w-16 h-16 color-seablue'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">Tailwind CSS</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiTypescript className='icons color-lightblue'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">TypeScript</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiTypescript className='bg-transparent w-16 h-16 color-lightblue'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">TypeScript</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiAmazonapigateway className='icons'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">API Integration</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiAmazonapigateway className='bg-transparent w-16 h-16'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">API Integration</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiMysql className='icons color-yellow'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">MySQL</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiMysql className='bg-transparent w-16 h-16 color-yellow'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">MySQL</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiFirebase className='icons color-orange'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">Firebase</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiFirebase className='bg-transparent w-16 h-16 color-orange'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">Firebase</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiHtml5 className='icons color-orange'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">HTML</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiHtml5 className='bg-transparent w-16 h-16 color-orange'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">HTML</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <SiCss3 className='icons color-seablue'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">CSS</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <SiCss3 className='bg-transparent w-16 h-16 color-seablue'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">CSS</h3>
                        </div>
                     </div>
-                    <div className="skills-card">
-                        <FaNodeJs className='icons color-green'/>
-                       <div className="skills-content">
-                          <h3 className="heading-h3">Node</h3>
+                    <div className="flex flex-col p-8 gap-4 items-center content-center max-w-80 rounded-lg bg-neutral-950">
+                        <FaNodeJs className='bg-transparent w-16 h-16 text-green-700'/>
+                       <div className="flex items-center">
+                          <h3 className="text-base">Node</h3>
                        </div>
                     </div>
                 </div>
