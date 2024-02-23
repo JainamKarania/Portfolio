@@ -1,4 +1,4 @@
-import './style.css'
+
 import DP from '../assets/Profile(2).jpg'
 export const AboutMe = () => {
   return (

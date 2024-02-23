@@ -1,4 +1,4 @@
-import './style.css'
+
 import { FaReact ,FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss , SiTypescript , SiJavascript,SiHtml5,SiCss3,SiFirebase,SiMysql,SiAmazonapigateway } from "react-icons/si";
 export const Skills = () => {

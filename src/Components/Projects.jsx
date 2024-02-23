@@ -1,4 +1,4 @@
-import './style.css'
+
 import { useState } from 'react';
 import Logo from '../assets/bg-banner.jpg'
 export const Projects = () => {
