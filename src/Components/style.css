@@ -8,7 +8,8 @@
 }
 .bg-overlay{
     background-image: url('../assets/herobanner.jpg');
-    height: 80vh;
+    height: 100vh;
+    position: relative;
 }
 .bg-contact-overlay{
     background-image: url('../assets/bg-banner.webp');

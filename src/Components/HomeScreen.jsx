@@ -11,7 +11,7 @@ const HomeScreen = () => {
     <div className='parallax'>
         <Navbar />
         <Banner />
-        <Projects/>
+        <Projects />
         <AboutMe />
         <Skills/>
         <Contact />

@@ -4,7 +4,7 @@ import { SiTailwindcss , SiTypescript , SiJavascript,SiHtml5,SiCss3,SiFirebase,S
 export const Skills = () => {
   return (
     <div>
-        <section className="py-20">
+        <section className="py-20" id='skills'>
             <div className="container max-w-7xl mx-auto px-4">
                 <div className="flex items-center justify-center mb-12">
                     <h2 className="text-5xl">Skills</h2>

@@ -1,10 +1,11 @@
 import './style.css'
+
 import '../assets/herobanner.jpg'
 import { TypeAnimation } from 'react-type-animation';
 export const Banner = () => {
   return (
     <div>
-         <section className='py-40 bg-no-repeat bg-cover border-b border-b-gray-700 bg-overlay'>
+         <section className='py-40 bg-no-repeat bg-cover border-b border-b-gray-700 bg-overlay' id='home'>
             <div class="container max-w-7xl mx-auto px-4">
                 <div className="flex flex-col items-center justify-center"> 
                     <div className="flex mx-auto flex-col items-center justify-center gap-4">
@@ -25,13 +26,14 @@ export const Banner = () => {
                     cursor={true}
                     repeat={Infinity}
                     style={{ fontSize: '64px', display: 'inline-block' }} 
-                 /></span></h3></div>
+                 /></span></h3>
+                 
+                 </div>
                 </div>
+              
             </div>
           </div>
         </section>
     </div>
-    
-  )
-}
-export default Banner
+     )
+    }
