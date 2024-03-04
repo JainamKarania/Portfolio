@@ -1,54 +1,8 @@
-.section-container{
-    max-width: 1280px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-}
 .bg-overlay{
     background-image: url('../assets/herobanner.jpg');
     height: 100vh;
     position: relative;
 }
-.bg-contact-overlay{
-    background-image: url('../assets/bg-banner.webp');
-}
-.section{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.pt-0{
-    padding-top: 50px;
-}
-.border-bottom{
-    border-bottom: 2px solid rgb(84, 84, 84);
-}
-.Logo {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.5rem;
-    margin-right: auto;
-    padding: 16px;
-}
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(17, 17, 91);
-    width: 100%;
-}
-.navbar-wrapper{
-    display: flex;
-    align-items: center;
-}
-
-.navlinks-wrapper{
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
 .navlinks {
     list-style: none;
 }
@@ -58,73 +12,6 @@
 }
 .navlinks a:hover{
     color: rgb(142, 142, 219);
-}
-.nav-menu{
-    display: flex;
-    flex-direction: column;
-}
-.hero-wrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    max-width: 500px;
-    gap: 1rem;
-}
-.hero-wrapper h1{
-    font-size: 2.5rem;
-    line-height: 1.3;
-}
-.hero-wrapper h1 span{
-    font-size: 4rem;
-    color: rgb(76, 173, 252);
-}
-.hero-wrapper h3{
-    font-size: 1.5rem; 
-}
-.hero-wrapper h3 span{
-    font-size: 2rem;
-    color: rgb(76, 173, 252);
-}
-.hero-image-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    box-shadow: 5px 5px 5px lightblue;
-}
-.about-image-wrapper{
-    width: 100%;
-    display: flex;
-}
-.about-wrapper{
-    max-width: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.heading-h2{
-    font-size: 2rem;
-    line-height: 1.3;
-}
-.size-big{
-    font-size: 4rem;
-}
-.paragraph{
-    font-size: 1.3rem;
-    line-height: 1.5;
-}
-.DP{
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 1000px;
-    max-width: 100%;
-}
-.icons{
-    background: transparent;
-    height: 64px;
-    width: 64px;
 }
 .color-aqua{
     color: aqua;
@@ -147,99 +34,6 @@
 .color-orange{
     color: orange;
 }
-.skills-heading{
-    margin-bottom: 4rem;
-    display: flex;
-    justify-content: center;
-}
-.skills-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto;
-    width: 100%;
-    row-gap: 1rem;
-    gap: 1rem;
-    column-gap: 1rem;
-}
-.skills-card{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    max-width:300px;
-    border-radius: 8px;
-    background-color: rgb(12, 12, 12);
-}
-.slider{
-    display: flex;
-    max-width: 100%;
-    justify-content: center;
-    gap: 2rem;
-}
-.project-card{
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 600px;
-    background-color: rgb(15, 15, 15);
-    border-radius: 16px;
-}
-.project-img{
-    width: 100px;
-    height: 100px;
-}
-.project-logo{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    border-radius: 1000px;
-}
-.project-content{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-.skills-wrapper{
-    display: flex;
-    gap: 1rem;
-    padding: 0.2rem;
-    flex-wrap: wrap;
-}
-.bg-black{
-    background-color: rgb(21, 21, 21);
-    opacity: 70%;
-}
 .bg-navy{
     background-color: navy;
-}
-.skills{
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-}
-.project-img-wrapper{
-    display: flex;
-    margin-bottom: 2rem;
-}
-.text-center{
-    text-align: center;
-}
-.button-wrapper{
-    display: flex;
-    gap: 2rem;
-}
-.button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
 }

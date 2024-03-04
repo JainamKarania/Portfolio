@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import '../assets/bg-banner.webp'
-import './style.css'
-import { TypeAnimation } from 'react-type-animation';
 export const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
