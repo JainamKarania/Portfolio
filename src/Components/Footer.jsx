@@ -7,9 +7,9 @@ export const Footer = () => {
     <footer className="bg-neutral-950 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="md:flex md:justify-between">
-          <div className="mb-8 md:mb-0 md:w-1/2">
+          <div className="mb-8 md:mb-0 md:w-9/12">
             <h2 className="text-2xl font-semibold mb-4">Jainam Karania</h2>
-            <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur libero in massa tristique, a convallis arcu feugiat.</p>
+            <p className="text-lg">Objective is to leverage my technical skills and passion for coding to contribute effectively to a dynamic and innovative organization. By staying updated with emerging technologies and trends, I strive to continuously improve my skills and make valuable contributions that drive the success of the organization while fostering personal growth and professional advancement.</p>
           </div>
           <div className='flex flex-col items-start justify-center'>
             <h2 className="text-2xl font-semibold mb-4">Connect with Me</h2>

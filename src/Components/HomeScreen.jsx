@@ -9,7 +9,7 @@ import './style.css'
 
 const HomeScreen = () => {
   return (
-    <div className='parallax'>
+    <div>
         <Navbar />
         <Banner />
         <Projects />

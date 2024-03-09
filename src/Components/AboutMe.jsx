@@ -1,5 +1,10 @@
 import DP from '../assets/Profile(2).jpg'
 export const AboutMe = () => {
+  const description = [
+    {
+      content : "I am Jainam Karania a Frontend & Webflow developer with a strong educational background, having completed a Master's in Computer Applications (MCA) from Jain University, Bangalore, and a Bachelor's in Computer Applications (BCA) from Shri Manilal Kadakia College, Ankleshwar, with comprehensive understanding of both theoretical concepts and practical applications in the field of computer science.With a keen interest in frontend web development, I have honed skills through hands-on experience and continuous learning ,and demonstrated proficiency in leveraging technologies such as HTML, CSS, JavaScript, and frameworks like React.js to create visually appealing and user-friendly web interfaces.I have also knowledge in Webflow, a popular visual development tool, enables me to efficiently design and develop responsive websites with ease."
+    }
+  ]
   return (
     <div>
       <section className="py-20" id='aboutme'>
@@ -9,9 +14,10 @@ export const AboutMe = () => {
           <img src={DP} alt="Profile" className="rounded-full w-96 h-96 object-cover object-center" />
         </div>
         <div className="md:w-1/2">
-          <h2 className="text-3xl font-bold mb-4">About Me</h2>
-          <p className="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur libero in massa tristique, a convallis arcu feugiat. Mauris vulputate eros ac sapien fermentum mollis. Fusce volutpat odio ut urna feugiat, non condimentum lacus dignissim. Aenean vitae ante vel leo congue auctor. Suspendisse et magna ut dolor fringilla vestibulum ac et libero. Sed eleifend sollicitudin erat ut facilisis.</p>
-          <p className="text-gray-700">Fusce vel metus eget magna gravida malesuada. Ut in lacus nec eros efficitur venenatis. Cras eu turpis nec nulla hendrerit sodales. Vivamus sagittis eu magna et efficitur. Pellentesque id dolor vel libero auctor aliquet. Proin vitae ultrices lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam nec quam quam. Fusce viverra lectus sit amet sodales euismod.</p>
+          <h2 className="text-4xl text-center font-bold mb-8">About Me</h2>
+          {description.map((descript) => (
+          <p className="text-white text-lg">{descript.content}</p>
+          ))}
         </div>
       </div>
     </div>

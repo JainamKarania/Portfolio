@@ -1,9 +1,11 @@
 import './style.css'
 import { FaLinkedin , FaGithub} from "react-icons/fa";
 import { TbBrandLeetcode } from "react-icons/tb";
-import '../assets/herobanner.jpg'
+import Resume from './JainamKarania_Resume.pdf';
+
 import { TypeAnimation } from 'react-type-animation';
 export const Banner = () => {
+  
   return (
     <div>
          <section className='py-72 bg-no-repeat bg-cover bg-opacity-40 border-b border-b-gray-700 bg-overlay' id='home'>
@@ -37,9 +39,8 @@ export const Banner = () => {
               <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer"><TbBrandLeetcode className="text-3xl text-white hover:text-gray-300" /></a>
             </div>
             </div>
-                   <button className='flex p-4 bg-green-600 border-none rounded-2xl'>Download CV</button>
-                </div>
-              
+               <a href={Resume} download><button className='flex p-4 bg-green-600 border-none rounded-2xl'>Download CV</button></a>
+             </div>
             </div>
           </div>
         </section>
