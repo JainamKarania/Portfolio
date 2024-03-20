@@ -43,19 +43,19 @@ export const Contact = () => {
         <form onSubmit={sendEmail} ref={form}  className="space-y-4">
           <div>
             <label htmlFor="name" className="block text-lg font-medium text-white">Name</label>
-            <input type="text" id="name" name="name"  className="mt-1 p-2 w-full border rounded-md" />
+            <input type="text" id="name" name="name"  className="mt-1 p-2 w-full text-black border rounded-md" />
           </div>
           <div>
             <label htmlFor="email" className="block text-lg font-medium text-white">Email</label>
-            <input type="email" id="email" name="email"  className="mt-1 p-2 w-full border rounded-md" />
+            <input type="email" id="email" name="email"  className="mt-1 text-black p-2 w-full border rounded-md" />
           </div>
           <div>
             <label htmlFor="message" className="block text-lg font-medium text-white">Your Message</label>
-            <textarea id="message" name="message" rows="4"  className="mt-1 p-2 w-full border rounded-md"></textarea>
+            <textarea id="message" name="message" rows="4"  className="mt-1 p-2 text-black w-full border rounded-md"></textarea>
           </div>
           <div>
               <label htmlFor="attachment" className="block text-lg font-medium text-white">Attachment</label>
-              <input type="file" id="attachment" name="attachment" className="mt-1 p-2 w-full border rounded-md" />
+              <input type="file" id="attachment" name="attachment" className="mt-1 p-2 text-black w-full border rounded-md" />
             </div>
           <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Submit</button>
         </form>
