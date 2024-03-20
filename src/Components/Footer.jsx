@@ -14,9 +14,9 @@ export const Footer = () => {
           <div className='flex flex-col items-start justify-center'>
             <h2 className="text-2xl font-semibold mb-4">Connect with Me</h2>
             <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-3xl text-white hover:text-gray-300" /></a>
-              <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FaGithub className="text-3xl text-white hover:text-gray-300" /></a>
-              <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer"><TbBrandLeetcode className="text-3xl text-white hover:text-gray-300" /></a>
+              <a href="https://www.linkedin.com/in/jainam-karania/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="text-3xl text-white hover:text-gray-300" /></a>
+              <a href="https://github.com/JainamKarania" target="_blank" rel="noopener noreferrer"><FaGithub className="text-3xl text-white hover:text-gray-300" /></a>
+              <a href="https://leetcode.com/JainamKarania/" target="_blank" rel="noopener noreferrer"><TbBrandLeetcode className="text-3xl text-white hover:text-gray-300" /></a>
             </div>
           </div>
         </div>
