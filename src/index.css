@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  /* background: oklch(39.1% 0.09 240.876); */
+  background-color: black;
+background-image: radial-gradient(#ffffff22 1px, transparent 1px);
+background-size: 20px 20px;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glow-icon {
+  filter: drop-shadow(0 0 8px currentColor);
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px currentColor) drop-shadow(0 0 10px currentColor);
+  }
+  50% {
+    filter: drop-shadow(0 0 15px currentColor) drop-shadow(0 0 20px currentColor);
+  }
+}
+
+.icon-style {
+  font-size: 2.75rem;
+  color: #22d3ee;
+  filter: drop-shadow(0 0 6px currentColor);
+  animation: glowRotate 2s ease-in-out infinite, rotate360 12s linear infinite;
+}
+
+@keyframes glowRotate {
+  0% {
+    transform: rotate(0deg);
+    filter: drop-shadow(0 0 6px currentColor);
+  }
+  50% {
+    filter: drop-shadow(0 0 12px currentColor);
+  }
+  100% {
+    transform: rotate(360deg);
+    filter: drop-shadow(0 0 6px currentColor);
+  }
+}
+
+.animate-glowRotate {
+  animation: glowRotate 12s linear infinite;
+}
+
+/* Creative Dark Scrollbar */
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #06b6d4, #3b82f6);
+  border-radius: 20px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #22d3ee, #60a5fa);
+}
+
+/* Firefox */
+.custom-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #06b6d4 transparent;
+}
+
+
+
+
