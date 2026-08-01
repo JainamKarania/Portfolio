@@ -5,6 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Genai from "../assets/GenAI.png";
 import intogenai from "../assets/intogenai.png";
 import { SiGooglecloud } from "react-icons/si";
+import mckinsey from "../assets/mckinsey-org-forward-program.png";
+import { BiSolidCertification } from "react-icons/bi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,6 +22,14 @@ interface Achievement {
 }
 
 const certifications: Achievement[] = [
+  {
+    name: "Mckinsey & Company: Forward Program Certificate",
+    image:
+      mckinsey,
+    date: "July 2025",
+    link: "https://www.credly.com/badges/dc97243c-9ad4-4530-ac5e-747eb537f464/public_url",
+    provider: { name: "Mckinsey & Company", Icon: BiSolidCertification },
+  },
   {
     name: "GenAI Academy - Google Cloud Certificate",
     image: Genai,
