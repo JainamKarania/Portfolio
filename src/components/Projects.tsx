@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // import hand from "../assets/hand.jpg";
 import ai_schedule from "../assets/AI_schedule.png";
+import house from "../assets/house.jpeg";
 // import electric from "../assets/electric.jfif";
 import g_thumb from "../assets/g_thumb.png";
 // import z_thumb from "../assets/z_thumb.png";
@@ -17,7 +18,7 @@ import { SiGooglegemini, SiJavascript, SiLangchain, SiMysql, SiTailwindcss, SiTy
 import { MdAnimation, MdStorage } from "react-icons/md";
 import { RiAiGenerate } from "react-icons/ri";
 
-type Category = "personal" | "webflow" | "ai";
+type Category = "personal" | "webflow" | "ai" | "Machine Learning";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -41,6 +42,15 @@ const projects: Project[] = [
   //   short: "An AI Agent that can understand and respond in both English and Hindi, providing a seamless bilingual conversational experience.",
   //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
   // },
+  {
+   id:"House Price Prediction",
+   name: "House Price Prediction",
+    image: house,
+   category: "Machine Learning",
+   short: "A machine learning model that predicts house prices based on various features such as location, size, and amenities.",
+    techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
+    githubLink: "https://github.com/JainamKarania/house_price_prediction",
+  },
   {
     id: "AI Scheduler",
     name: "AI Scheduler",
