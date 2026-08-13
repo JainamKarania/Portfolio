@@ -10,6 +10,7 @@ import ai_schedule from "../assets/AI_schedule.png";
 import house from "../assets/house.jpeg";
 // import electric from "../assets/electric.jfif";
 import g_thumb from "../assets/g_thumb.png";
+import titanic from "../assets/titanic.jfif";
 // import z_thumb from "../assets/z_thumb.png";
 import wonder from "../assets/wonder.jpg";
 import finance from "../assets/finance.avif";
@@ -42,6 +43,15 @@ const projects: Project[] = [
   //   short: "An AI Agent that can understand and respond in both English and Hindi, providing a seamless bilingual conversational experience.",
   //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
   // },
+  {
+    id: "Titanic Survival Prediction",
+    name: "Titanic Survival Prediction",
+    image: titanic,
+    category: "Machine Learning",
+    short: "A machine learning model that predicts the survival of passengers on the Titanic based on various features such as age",
+    techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
+    githubLink: "https://github.com/JainamKarania/TitanicSurvivalPrediction",
+  },
   {
    id:"House Price Prediction",
    name: "House Price Prediction",
