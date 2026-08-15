@@ -7,6 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // import hand from "../assets/hand.jpg";
 import ai_schedule from "../assets/AI_schedule.png";
+import customer from "../assets/customer.jpeg";
 import house from "../assets/house.jpeg";
 // import electric from "../assets/electric.jfif";
 import g_thumb from "../assets/g_thumb.png";
@@ -43,6 +44,15 @@ const projects: Project[] = [
   //   short: "An AI Agent that can understand and respond in both English and Hindi, providing a seamless bilingual conversational experience.",
   //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
   // },
+  {
+    id: "Customer Churn Prediction",
+    name: "Customer Churn Prediction",
+    image: customer,  
+    category: "Machine Learning",
+    short: "A machine learning model that predicts customer churn based on various features such as customer demographics, usage patterns, and service history.",
+    techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
+    githubLink: ""
+  },
   {
     id: "Titanic Survival Prediction",
     name: "Titanic Survival Prediction",
