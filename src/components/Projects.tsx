@@ -45,6 +45,15 @@ const projects: Project[] = [
   //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
   // },
   {
+    id: "Credit Fraud Detection",
+    name: "Credit Fraud Detection",
+    image: finance,
+    category: "Machine Learning",
+    short: "A machine learning model that detects credit card fraud by analyzing transaction patterns and identifying suspicious activities.",
+    techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
+    githubLink: "https://github.com/JainamKarania/CardFraudDetection",
+  },
+  {
     id: "Customer Churn Prediction",
     name: "Customer Churn Prediction",
     image: customer,  
