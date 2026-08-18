@@ -9,6 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import ai_schedule from "../assets/AI_schedule.png";
 import customer from "../assets/customer.jpeg";
 import house from "../assets/house.jpeg";
+import credit from "../assets/credit.jpg";
 // import electric from "../assets/electric.jfif";
 import g_thumb from "../assets/g_thumb.png";
 import titanic from "../assets/titanic.jfif";
@@ -47,7 +48,7 @@ const projects: Project[] = [
   {
     id: "Credit Fraud Detection",
     name: "Credit Fraud Detection",
-    image: finance,
+    image: credit,
     category: "Machine Learning",
     short: "A machine learning model that detects credit card fraud by analyzing transaction patterns and identifying suspicious activities.",
     techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
