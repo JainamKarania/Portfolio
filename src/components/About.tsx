@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profile from "../assets/profile.jpeg";
+import profile from "../assets/LinkedinProfile.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import {

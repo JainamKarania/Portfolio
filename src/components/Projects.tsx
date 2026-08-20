@@ -5,6 +5,8 @@ import { FaMeta, FaPython } from "react-icons/fa6";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import customer2 from "../assets/customer2.jfif";
+
 // import hand from "../assets/hand.jpg";
 import ai_schedule from "../assets/AI_schedule.png";
 import customer from "../assets/customer.jpeg";
@@ -45,6 +47,15 @@ const projects: Project[] = [
   //   short: "An AI Agent that can understand and respond in both English and Hindi, providing a seamless bilingual conversational experience.",
   //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
   // },
+  {
+   id: "Customer Segmentation",
+   name: "Customer Segmentation",
+    image: customer2,    
+    category: "Machine Learning",
+   short: "A machine learning model that segments customers into distinct groups based on their purchasing behavior and demographic information.",
+    techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
+    githubLink: ""
+  },
   {
     id: "Credit Fraud Detection",
     name: "Credit Fraud Detection",
