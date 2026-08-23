@@ -6,6 +6,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import customer2 from "../assets/customer2.jfif";
+import retail from "../assets/retail.jpg";        
 
 // import hand from "../assets/hand.jpg";
 import ai_schedule from "../assets/AI_schedule.png";
@@ -47,6 +48,15 @@ const projects: Project[] = [
   //   short: "An AI Agent that can understand and respond in both English and Hindi, providing a seamless bilingual conversational experience.",
   //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
   // },
+  {
+    id:"Retail RFM Analysis",
+    name: "Retail RFM Analysis",
+    image: retail, 
+    category: "Machine Learning",
+    short: "A machine learning model that analyzes customer behavior and segments them based on their recency, frequency, and monetary value (RFM) to optimize marketing strategies.",
+    techStack: [{ name: "Python", icon: <FaPython /> }, { name: "Scikit-learn", icon: <SiTypescript /> }, { name: "Pandas", icon: <SiTypescript /> }, { name: "NumPy", icon: <SiTypescript /> }],
+    githubLink: "https://github.com/JainamKarania/RetailRFM_analysis"
+  },
   {
    id: "Customer Segmentation",
    name: "Customer Segmentation",
