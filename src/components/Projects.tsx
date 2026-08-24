@@ -40,14 +40,6 @@ interface Project {
 }
 
 const projects: Project[] = [
-  // {
-  //   id: "Bilingual Voice AI Agent",
-  //   name: "Bilingual Voice AI Agent",
-  //   image: "",
-  //   category: "ai",
-  //   short: "An AI Agent that can understand and respond in both English and Hindi, providing a seamless bilingual conversational experience.",
-  //   techStack: [{ name: "Python", icon: <FaPython /> }, { name: "FastAPI", icon: <MdStorage /> }, { name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, { name: "Ollama", icon: <FaMeta /> }, { name: "LangChain", icon: <SiLangchain /> },{ name: "TypeScript", icon: <SiTypescript />}],
-  // },
   {
     id:"Retail RFM Analysis",
     name: "Retail RFM Analysis",
@@ -153,15 +145,6 @@ const projects: Project[] = [
     githubLink: "https://github.com/JainamKarania/Wonders-of-India",
     liveLink: "https://wonders-of-india.vercel.app/",
   },
-  // {
-  //   id: "harrison",
-  //   name: "Harrison's Webflow Site",
-  //   image: electric,
-  //   category: "webflow",
-  //   short: "Elegant Webflow website with clean UI.",
-  //   techStack: [{ name: "Webflow", icon: <FaWebflow /> }],
-  //   liveLink: "https://www.harrisonforbeselectrical.com/",
-  // },
 ];
 
 const Projects = () => {
