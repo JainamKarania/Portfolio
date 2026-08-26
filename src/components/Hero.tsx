@@ -13,7 +13,6 @@ const Hero = () => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Intro reveal
       gsap.from([jainamRef.current, karaniaRef.current], {
         y: 70,
         opacity: 0,
@@ -22,13 +21,8 @@ const Hero = () => {
         ease: "power4.out",
       });
 
-      // Scroll split responsive distance
       const moveDistance =
-        window.innerWidth < 640
-          ? 40
-          : window.innerWidth < 1024
-          ? 90
-          : 160;
+        window.innerWidth < 640 ? 40 : window.innerWidth < 1024 ? 90 : 160;
 
       gsap.to(jainamRef.current, {
         x: -moveDistance,
@@ -49,8 +43,6 @@ const Hero = () => {
           scrub: true,
         },
       });
-
-      // Background parallax
       gsap.to(bgRef.current, {
         y: -60,
         ease: "none",
@@ -68,19 +60,19 @@ const Hero = () => {
 
   return (
     <header className="relative min-h-screen mt-6 bg-black flex items-center justify-center overflow-hidden">
-      {/* Background */}
+      
       <div
         ref={bgRef}
         aria-hidden
         className="absolute inset-0 bg-[radial-gradient(#ffffff22_1px,transparent_1px)] bg-size-[20px_20px]"
       />
 
-      {/* Wrapper */}
+      
       <div
         ref={wrapperRef}
         className="relative z-10 w-full max-w-350 mx-auto px-4 sm:px-6 md:px-10"
       >
-        {/* Name */}
+        
         <h1 className="text-white font-extrabold tracking-tight leading-[0.9] text-center mx-auto max-w-300">
           <span
             ref={jainamRef}
@@ -111,7 +103,7 @@ const Hero = () => {
           </span>
         </h1>
 
-        {/* Bottom Section */}
+        
         <section
           className="
             mt-10 md:mt-14
@@ -123,7 +115,6 @@ const Hero = () => {
             text-white
           "
         >
-          {/* Contact */}
           <address
             className="
               not-italic
@@ -141,13 +132,13 @@ const Hero = () => {
           {/* CTA */}
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             <button
-  onClick={() => {
-    document.getElementById("projects")?.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }}
-  className="
+              onClick={() => {
+                document.getElementById("projects")?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }}
+              className="
     px-5 py-2.5 sm:px-6 sm:py-3
     rounded-full
     bg-white
@@ -157,9 +148,9 @@ const Hero = () => {
     hover:scale-105
     transition
   "
->
-  View Work
-</button>
+            >
+              View Work
+            </button>
 
             <a
               href="/Jainamkarania_Resume.pdf"
@@ -179,7 +170,6 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Social */}
           <nav
             className="
               flex

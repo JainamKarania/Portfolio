@@ -19,7 +19,6 @@ export default function Experience(): JSX.Element {
 
   const ctx = gsap.context(() => {
 
-    // Section animation
     gsap.from(section, {
       opacity: 0,
       y: 40,
@@ -31,7 +30,7 @@ export default function Experience(): JSX.Element {
       },
     });
 
-    // Header animations
+    
     if (subRef.current) {
       gsap.from(subRef.current, {
         y: 30,
@@ -59,8 +58,7 @@ export default function Experience(): JSX.Element {
         },
       });
     }
-
-    // Cards animation — scoped to this section
+    
     gsap.from(".experience-card", {
       y: 50,
       opacity: 0,
@@ -88,10 +86,10 @@ export default function Experience(): JSX.Element {
     >
       <div className="container max-w-7xl mx-auto">
 
-        {/* ===== HEADER ===== */}
+        
         <header className="flex flex-col items-center gap-6 mb-16 md:mb-20">
 
-          {/* Badge */}
+          
           <h4
             ref={subRef}
             className="relative inline-block text-white font-semibold text-sm md:text-base tracking-[0.25em]
@@ -105,7 +103,7 @@ export default function Experience(): JSX.Element {
               transition-transform duration-300 ease-out group-hover:translate-y-0" />
           </h4>
 
-          {/* Main Heading */}
+          
           <h2
             ref={mainRef}
             id="experience-heading"
@@ -121,10 +119,10 @@ export default function Experience(): JSX.Element {
           </h2>
         </header>
 
-        {/* ===== GRID ===== */}
+        
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
 
-          {/* IMAGE COLUMN */}
+          
           <figure className="rounded-3xl overflow-hidden shadow-2xl h-80 md:h-105 lg:h-full">
             <img
               src={work}
@@ -134,10 +132,10 @@ export default function Experience(): JSX.Element {
             />
           </figure>
 
-          {/* CONTENT COLUMN */}
+          
           <div className="space-y-10 md:space-y-12">
 
-            {/* EXPERIENCE CARD 1 */}
+            
             <article className="experience-card bg-zinc-900/70 backdrop-blur rounded-3xl p-6 md:p-8 
               border border-zinc-700/40 shadow-xl space-y-5">
 
@@ -166,7 +164,7 @@ export default function Experience(): JSX.Element {
               </ul>
             </article>
 
-            {/* EXPERIENCE CARD 2 */}
+            
             <article className="experience-card bg-zinc-900/70 backdrop-blur rounded-3xl p-6 md:p-8 
               border border-zinc-700/40 shadow-xl space-y-5">
 

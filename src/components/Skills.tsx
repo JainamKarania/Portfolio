@@ -28,7 +28,7 @@ const Skills = () => {
   const tween1 = useRef<gsap.core.Tween | null>(null);
   const tween2 = useRef<gsap.core.Tween | null>(null);
 
-  // Row 1 → Frontend
+  
   const row1Skills = [
     { name: "React", icon: <FaReact /> },
     { name: "Next.js", icon: <RiNextjsFill /> },
@@ -40,7 +40,7 @@ const Skills = () => {
     { name: "GSAP", icon: <MdAnimation /> },
   ];
 
-  // Row 2 → Backend / AI (NO repetition with row1)
+  
   const row2Skills = [
     { name: "Python", icon: <FaPython /> },
     { name: "MySQL", icon: <SiMysql /> },
@@ -56,7 +56,7 @@ const Skills = () => {
   const duplicatedRow2 = [...row2Skills, ...row2Skills];
 
   useEffect(() => {
-    // Row 1 → Left infinite loop
+    
     tween1.current = gsap.fromTo(
       row1Ref.current,
       { xPercent: 0 },
@@ -68,7 +68,7 @@ const Skills = () => {
       }
     );
 
-    // Row 2 → Right infinite loop (opposite + slower by ~1s)
+    
     tween2.current = gsap.fromTo(
       row2Ref.current,
       { xPercent: -50 },
@@ -183,7 +183,7 @@ const Skills = () => {
       </header>
 
       <div onMouseEnter={pause} onMouseLeave={resume} className="space-y-6">
-        {/* Row 1 */}
+        
         <div className="overflow-hidden">
           <ul ref={row1Ref} className="flex w-max gap-6 px-4" role="list">
             {duplicatedRow1.map((skill, index) => (
@@ -192,7 +192,7 @@ const Skills = () => {
           </ul>
         </div>
 
-        {/* Row 2 */}
+        
         <div className="overflow-hidden">
           <ul ref={row2Ref} className="flex w-max gap-6 px-4" role="list">
             {duplicatedRow2.map((skill, index) => (

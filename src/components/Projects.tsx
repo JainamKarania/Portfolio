@@ -8,15 +8,15 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import customer2 from "../assets/customer2.jfif";
 import retail from "../assets/retail.jpg";        
 
-// import hand from "../assets/hand.jpg";
+
 import ai_schedule from "../assets/AI_schedule.png";
 import customer from "../assets/customer.jpeg";
 import house from "../assets/house.jpeg";
 import credit from "../assets/credit.jpg";
-// import electric from "../assets/electric.jfif";
+
 import g_thumb from "../assets/g_thumb.png";
 import titanic from "../assets/titanic.jfif";
-// import z_thumb from "../assets/z_thumb.png";
+
 import wonder from "../assets/wonder.jpg";
 import finance from "../assets/finance.avif";
 import boltz from "../assets/image.png";
@@ -229,14 +229,14 @@ const Projects = () => {
           </h2>
         </header>
 
-        {/* Grid */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {visibleProjects.map((project) => (
             <article
               key={project.id}
               className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm transition hover:border-white/20 hover:bg-white/10"
             >
-              {/* Image */}
+              
               <figure className="relative">
                 <img
                   src={project.image}
@@ -245,7 +245,7 @@ const Projects = () => {
                   loading="lazy"
                 />
 
-                {/* Title overlay */}
+                
                 <figcaption className="pointer-events-none absolute bottom-0 left-0 right-0 p-5 bg-linear-to-t from-black/90 to-transparent z-10 transition-opacity duration-300 group-hover:opacity-0">
                   <h3 className="text-lg sm:text-xl font-semibold">
                     {project.name}
@@ -253,7 +253,7 @@ const Projects = () => {
                 </figcaption>
               </figure>
 
-              {/* Reveal Panel */}
+              
               <div className="absolute inset-x-0 bottom-0 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out bg-black/95 p-5 sm:p-6 flex flex-col gap-4">
                 <h3 className="text-base sm:text-lg font-semibold">
                   {project.name}
@@ -263,7 +263,7 @@ const Projects = () => {
                   {project.short}
                 </p>
 
-                {/* Skills */}
+                
                 <div className="flex flex-wrap gap-2 mt-1">
                   {project.techStack.map((skill, i) => (
                     <span
@@ -276,7 +276,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* Links */}
+                
                 {(project.githubLink || project.liveLink) && (
                   <nav className="flex flex-wrap gap-3 mt-2">
                     {project.githubLink && (
@@ -309,7 +309,6 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* View More / Less */}
         {projects.length > 4 && (
           <div className="flex justify-center mt-12 sm:mt-14">
             <button

@@ -99,7 +99,6 @@ const skillBadges: Achievement[] = [
 
 const Certifications = () => {
   const sectionRef = useRef<HTMLElement>(null);
-  // const headingRef = useRef<HTMLHeadingElement>(null);
   const [activeTab, setActiveTab] = useState<"certifications" | "badges">(
     "certifications",
   );

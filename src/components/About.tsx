@@ -101,7 +101,6 @@ const About = () => {
         bg-size-[20px_20px]
       "
     >
-      {/* Background Pattern */}
       <div
         ref={bgRef}
         className="
@@ -136,7 +135,6 @@ const About = () => {
           </h2>
         </header>
 
-        {/* ===== MAIN GRID ===== */}
         <div ref={cardsRef} className="grid lg:grid-cols-2 gap-8 items-stretch">
           {/* ==== LEFT PROFILE CARD ==== */}
           <aside className="border border-white/15 rounded-2xl p-6 backdrop-blur-sm shadow-lg space-y-6">
@@ -162,7 +160,7 @@ const About = () => {
               </div>
             </div>
 
-            {/* EDUCATION + LOCATION */}
+
             <section className="border-t border-white/10 pt-5 space-y-6">
               <h4 className="font-semibold text-gray-200">Education</h4>
 
@@ -190,7 +188,6 @@ const About = () => {
 
               <div className="border-t border-white/20" />
 
-              {/* LOCATION PREFERENCES */}
               <div>
                 <h4 className="font-semibold text-gray-200 mb-4">
                   Location Preferences
@@ -222,7 +219,6 @@ const About = () => {
             </section>
           </aside>
 
-          {/* ==== RIGHT CONTENT ==== */}
           <main className="border border-white/15 rounded-2xl p-6 md:p-8 backdrop-blur-sm shadow-lg space-y-8">
             <section>
               <h3 className="text-2xl font-bold mb-4">Introduction</h3>

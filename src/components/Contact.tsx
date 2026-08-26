@@ -58,7 +58,6 @@ const Contact = () => {
     >
       <main className="max-w-4xl mx-auto text-center">
 
-        {/* Heading */}
         <header className="mb-10">
           <h2
             ref={headingRef}
@@ -77,7 +76,6 @@ const Contact = () => {
           </p>
         </header>
 
-        {/* Social Links */}
         <nav aria-label="Social media links">
           <div
             ref={linksRef}

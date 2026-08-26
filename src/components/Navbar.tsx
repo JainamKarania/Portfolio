@@ -27,7 +27,7 @@ const Navbar = () => {
         ease: "power2.inOut",
       });
     }
-    closeMenu(); // Close mobile menu
+    closeMenu(); 
   };
 
   return (
@@ -38,7 +38,7 @@ const Navbar = () => {
             Jainam Karania Portfolio
           </div>
 
-          {/* Desktop Menu */}
+          
           <ul className="hidden md:flex space-x-6 font-medium">
             {navItems.map((item) => (
               <button
@@ -55,7 +55,7 @@ const Navbar = () => {
             ))}
           </ul>
 
-          {/* Mobile Icon */}
+          
           <button
             onClick={toggleMenu}
             className="md:hidden text-white text-2xl focus:outline-none"
@@ -64,7 +64,7 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu */}
+        
         {isOpen && (
           <div className="md:hidden mt-4 bg-slate-800/80 rounded-xl p-4 space-y-4 animate-fade-in shadow-md shadow-cyan-500/20">
             {navItems.map((item) => (
