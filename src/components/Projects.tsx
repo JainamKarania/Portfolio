@@ -41,6 +41,17 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: "woi",
+    name: "Wonders of India",
+    image: wonder,
+    category: "personal",
+    short:
+      "Travel Agency Website built using React and Tailwind showcasing India’s Largest Cultural Destinations.",
+    techStack: [{ name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, {name: "JavaScript", icon: <SiJavascript />}, {name:"GSAP", icon: <MdAnimation />}, {name:"MySQL", icon: <SiMysql />}, {name:"API Integration", icon: <MdStorage />}],
+    githubLink: "https://github.com/JainamKarania/Wonders-of-India",
+    liveLink: "https://wonders-of-india.vercel.app/",
+  },
+  {
     id:"Retail RFM Analysis",
     name: "Retail RFM Analysis",
     image: retail, 
@@ -133,17 +144,6 @@ const projects: Project[] = [
       "NLP model summarizing financial reports and extracting KPIs using Python, Pandas, and NumPy.",
     techStack: [{ name: "Python", icon: <FaPython /> }],
     githubLink: "https://github.com/JainamKarania/financial-report-summarization"
-  },
-  {
-    id: "woi",
-    name: "Wonders of India",
-    image: wonder,
-    category: "personal",
-    short:
-      "Travel blog built using React and Tailwind showcasing India’s destinations.",
-    techStack: [{ name: "React", icon: <FaReact /> }, { name: "Tailwind CSS", icon: <SiTailwindcss /> }, {name: "JavaScript", icon: <SiJavascript />}, {name:"GSAP", icon: <MdAnimation />}, {name:"MySQL", icon: <SiMysql />}, {name:"API Integration", icon: <MdStorage />}],
-    githubLink: "https://github.com/JainamKarania/Wonders-of-India",
-    liveLink: "https://wonders-of-india.vercel.app/",
   },
 ];
 
